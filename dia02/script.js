@@ -53,3 +53,6 @@ let newKey = (obj, key, value) => {
 
 }
 console.log(newKey(customer1, 'lastName', 'Ferreira'));
+
+console.log(Object.keys(customer1))
+console.log(Object.values(customer1))
